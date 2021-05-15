@@ -3,7 +3,7 @@ import Cell from './Cell.js'
 export default class Matrix extends Component {
   
   genRow = (vals) => {
-    return vals.map(val => <Cell val={val}/>)
+    return vals.map(val => <Cell value={val}/>)
   }
   
   genMatrix = () => {
