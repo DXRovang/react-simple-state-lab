@@ -11,7 +11,7 @@ export default class Cell extends Component {
 
   render(){
     return (
-      <div style={{backgroundColor: this.state.color}}>hello</div>
+      <div className="cell" style={{backgroundColor: '#fff'}}></div>
     )
   }
 
